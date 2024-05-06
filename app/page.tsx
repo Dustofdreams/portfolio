@@ -10,8 +10,8 @@ import { Fade } from "react-awesome-reveal";
 export default function Home() {
   return (
     <Fade>
-      <main className="bg-[#222831] w-full md:max-w-[70vw] flex flex-col justify-center items-center px-6 md:px-0 m-auto mt-[2rem] sm:mt-0">
-        <section className="h-[calc(100vh-64px)] flex  w-full items-start md:items-center">
+      <main className="bg-[#222831] w-full md:max-w-[70vw] flex flex-col justify-center items-center px-6 md:px-0 m-auto sm:mt-0">
+        <section className="h-svh flex  w-full items-center">
           <div className="w-full md:w-4/5 flex flex-col items-start">
             <Fade direction="down" triggerOnce={true}>
               <p className="text-fluid-lg text-maingreen">Well met!</p>
@@ -58,7 +58,7 @@ export default function Home() {
             </Fade>
           </div>
         </section>
-        <section className="h-dvh flex flex-col w-full items-center justify-center mt-[15rem] md:mt-0">
+        <section className="h-svh md:h-screen flex flex-col w-full items-center justify-centermd:mt-0">
           <About />
         </section>
       </main>
