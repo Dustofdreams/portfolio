@@ -21,7 +21,7 @@ function TechStack() {
           >
             <Fade delay={index * 200} triggerOnce={true} direction="up">
               <Image
-                src={technology.logo}
+                src={`${process.env.PUBLIC_URL}/${technology.logo}`}
                 alt={technology.name}
                 width={technology.width}
                 height={technology.height}
