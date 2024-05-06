@@ -62,18 +62,18 @@ export const projects = [
       name: "Designer Portfolio",
       stack: ["JavaScript, React, Next JS, Tailwind CSS, Framer Motion"],
       description: "Minimalistic and stylish portfolio for a graphic designer and illustrator. Created in NEXT.js for image optimization and ",
-      image: '/CAPTURE2.jpg'
+      image: '/Capture2.jpg'
     },
     {
         name: "Stylish Weather",
         stack: ["JavaScript, React, Next JS, Tailwind CSS, Framer Motion"],
         description: "Minimalistic and stylish portfolio for a graphic designer and illustrator. Created in NEXT.js for image optimization and ",
-        image: '/CAPTURE.jpg'
+        image: '/Capture1.jpg'
     },
     {
         name: "Stylish Weather",
         stack: ["JavaScript, React, Next JS, Tailwind CSS, Framer Motion"],
         description: "Minimalistic and stylish portfolio for a graphic designer and illustrator. Created in NEXT.js for image optimization and ",
-        image: '/CAPTURE.jpg'
+        image: '/Capture2.jpg'
     }
 ]
