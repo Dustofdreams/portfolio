@@ -21,7 +21,7 @@ function Project({ project, index }: Projects) {
         <Fade delay={index*700} direction="up" triggerOnce={true}>
           <div>
             <Image
-              src={project.image}
+              src={`${process.env.PUBLIC_URL}${project.image}`}
               alt="placeholder"
               width={500}
               height={300}
