@@ -8,7 +8,7 @@ export const technologystack = [
     },
     {
         name: "CSS",
-        logo: "/logos/CSS.png",
+        logo: "/logos/css.png",
         width: 80,
         height: 80,
 
@@ -43,7 +43,7 @@ export const technologystack = [
     },
     {
         name: "TypeScript",
-        logo: "/logos/ts.png",
+        logo: "/logos/TS.png",
         width: 80,
         height: 80,
 
